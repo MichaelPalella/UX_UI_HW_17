@@ -1,0 +1,224 @@
+.logo{
+display: inline-block;
+margin-left: 55px;
+font-size: 32px;
+font-weight: 500;
+}
+
+.mainNav{
+    display: inline-block;
+    background-color: aqua;
+    margin-right: 55px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0 25px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+ul{
+    background-color: #363535;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    padding: 32px 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    width: 100vw;
+    
+}
+
+.hero{
+    margin-top: 257px; 
+}
+
+body{
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.contact{
+    border-style: solid;
+    padding: 13px 16px;
+    border-radius: 4px;
+   
+}
+
+h1{
+    font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal; 
+  font-size: 64px;
+  padding: 0;
+  margin: 0px 0px 0px 80px;
+
+
+}
+
+.tagLine{
+    font-size: 24px;
+    max-width: 50%;
+    margin: 0px 0px 0px 80px;
+    font-weight: 400;
+
+}
+
+.quoteContainer{
+    background-color: red;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.quote{
+    font-size: 32px;
+    font-weight: 500;
+    text-align: right;
+    font-style: italic;
+    max-width: 50%;
+    margin: 50px 80px 50px 0px;
+
+}
+
+h2{
+    font-size: 42px;
+    font-weight: 500;
+    margin: 0px 0px 0px 80px;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: inline-block;
+
+    
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.footer{
+    color: white;
+    align-items: center;
+    height: 40px;
+    
+
+bottom: 0;
+    padding: 32px 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    width: 100vw;
+    margin-top: 100px;
+
+}
+
+.footerCopy{
+    display: flex;
+    align-items: center;
+    margin: 30px 55px 30px 30px;
+    
+    
+
+}
+
+.copyright{
+    margin: 30px 30px 30px 55px;
+}
+
+.footerCopy li{
+    font-size: 16px;
+    
+
+}
+
+.title{
+    font-size: 36px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin: 0px 0px 30px 80px;
+    display: inline-block;
+
+
+
+}
+
+br{
+margin: -10px;
+padding: -10px;
+}
+
+.cardContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    background-color: aquamarine;
+    grid-template-areas: "card1 card2";
+}
+
+#non-profit{
+    grid-area: card1;
+    margin: 30px 25px 30px 80px;
+    border-radius: 4px;
+
+}
+
+#govAgency{
+    grid-area: card2;
+    margin: 30px 80px 30px 25px;
+    border-radius: 4px;
+
+}
+
+#non-profit img{
+width: 100%;
+}
+
+#govAgency img{
+    width: 100%;
+}
+
+.subTitle{
+font-size: 16px;
+font-weight: 400;
+color:#3E3E3E;
+display: inline-block;
+margin: 0px 0px 30px 30px;
+
+
+}
+
+.description{
+    font-size: 16px;
+    margin: 0 30px 30px 30px;
+}
+
+h3{
+   font-size: 36px; 
+   font-weight: 400;
+   margin: 30px 30px 0px 30px;
+}
+
+.linkedinIcon{
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    right: 0px;
+    
+}
+
+.govImage{
+    border-radius: 4px 4px 0 0;
+}
